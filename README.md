@@ -9,7 +9,9 @@ In the following we take a glance at a simple example. Here we define an article
 ```HTML
 <ariticle>
   <h1>Examplary article</h1>
-  <p>Lorem ipsum Duis esse laborum id voluptate consectetur in veniam aute laboris <span class="footnote">Amet eiusmod dolor consequat proident</span> in voluptate consectetur eu eiusmod officia veniam fugiat elit culpa in dolore elit.
+  <p>Lorem ipsum Duis esse laborum id voluptate consectetur in veniam aute laboris 
+  <span class="footnote">Amet eiusmod dolor consequat proident</span> in voluptate 
+  consectetur eu eiusmod officia veniam fugiat elit culpa in dolore elit.</p>
 </article>
 ```
 
@@ -20,7 +22,6 @@ In the header of out HTML document we simply load the current jQuery framework v
   ...
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script src="jquery.footnote.js"></script>
-  <link rel="stylesheet" href="demo.css"></link>
   <script type="text/javascript">
     jQuery(document).ready(function($) {
       $("article").footnote();
