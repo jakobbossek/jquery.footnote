@@ -6,8 +6,7 @@ Recently I had the idea to place footnotes in blog articles as it is done in LaT
 ## Usage
 In the following we take a glance at a simple example. Here we define an article containging some text and inside this text there is a nested footnote, marked up with the footnote class.
 
-```
-#!html
+```HTML
 <ariticle>
   <h1>Examplary article</h1>
   <p>Lorem ipsum Duis esse laborum id voluptate consectetur in veniam aute laboris <span class="footnote">Amet eiusmod dolor consequat proident</span> in voluptate consectetur eu eiusmod officia veniam fugiat elit culpa in dolore elit.
@@ -16,8 +15,7 @@ In the following we take a glance at a simple example. Here we define an article
 
 In the header of out HTML document we simply load the current jQuery framework version and the footnote plugin. Finally we apply the footnote plugin to all ariticles if the DOM-tree is loaded entirely.
 
-```
-#!html
+```HTML
 <head>
   ...
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
